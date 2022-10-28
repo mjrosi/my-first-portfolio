@@ -28,8 +28,25 @@ img {
     font-size: 110%;
 }
 
+#menu, #logo {
+    line-height: 75px;
+}
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #54e4cb;
+}
+
+.active {
+    border-bottom: 2px solid #54e4cb;
 }
