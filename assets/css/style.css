@@ -8,7 +8,6 @@
 
 body {
     font-family: Montserrat, sans-serif;
-    font-weight: 300;
 }
 
 /* headings and logo */
@@ -17,15 +16,10 @@ h1, h2 {
     font-family: Barlow Condensed, sans-serif;
 }
 
-img {
-    width: 25%;
-    height: auto;
-    padding: 0;
-    float: left;
-}
 
 #menu {
-    font-size: 110%;
+    font-size: 120%;
+    color: white;
 }
 
 #menu, #logo {
@@ -44,24 +38,17 @@ img {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #54e4cb;
+    border-bottom: 2px solid #ffffff;
 }
 
 .active {
-    border-bottom: 2px solid #54e4cb;
+    border-bottom: 2px solid #ffffff;
 }
 
 /* hero image */
 
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-}
-
-
 .hero-image {
-    background-image: url("../images/hero-image-sized.jpg");
+    background-image: url("../images/hero-image-600px.png");
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,24 +58,14 @@ img {
   .hero-text {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-size: 50px;
+    letter-spacing: 4px;
   }
-  
-  .hero-text button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: black;
-    background-color: #ddd;
-    text-align: center;
-    cursor: pointer;
-  }
-  
-  .hero-text button:hover {
-    background-color: #555;
-    color: white;
-  }
+
+.hero-text > p {
+    font-size: medium;
+}
