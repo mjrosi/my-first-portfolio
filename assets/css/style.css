@@ -74,6 +74,7 @@ h1, h2 {
 
 #mission {
     height: 600px;
+    margin-bottom: 30px;
 }
 
 #mission > h1 {
@@ -127,4 +128,46 @@ h1, h2 {
     text-align: center;
     font-size: 40px;
     margin-bottom: 10px;
+}
+
+/* about us section */
+
+#about-us {
+    height: 600px;
+    background-color: #52e2c9;
+}
+
+#about-us-pic-border {
+    width: 45%;
+    height: 50%;
+    clear: both;
+    float: left;
+    margin: auto;
+    padding: 50px 50px;
+}
+
+#about-us-pic {
+    background: url('../images/about-us-600px.png') no-repeat center center;
+    height: 500px;
+    width: 500px;
+}
+
+#about-us-text {
+    width: 45%;
+    clear: right;
+    float: right;
+    padding-top: 75px;
+}
+
+#about-us-text > h1 {
+    font-size: 60px;
+    float: left;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#about-us-text > p {
+    font-size: 20px;
+    clear: both;
+    float: left;
 }
