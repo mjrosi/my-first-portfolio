@@ -19,7 +19,6 @@ h1, h2 {
 
 #menu {
     font-size: 120%;
-    color: white;
 }
 
 #menu, #logo {
@@ -61,7 +60,6 @@ h1, h2 {
     top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
     font-size: 55px;
     letter-spacing: 4px;
   }
@@ -82,14 +80,14 @@ h1, h2 {
     margin-top: 30px;
     margin-left: 30px;
     padding-bottom: 20px;
-    float: left;
+    text-align: center;
 }
 
 #mission > p {
     margin-left: 30px;
     font-size: 25px;
     clear: both;
-    float: left;
+    text-align: center;
 }
 
 #reasons {
