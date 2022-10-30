@@ -170,4 +170,6 @@ h1, h2 {
     font-size: 20px;
     clear: both;
     float: left;
+    padding-right: 50px;
+    text-align: justify;
 }
