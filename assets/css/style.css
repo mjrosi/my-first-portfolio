@@ -130,6 +130,7 @@ h1, h2 {
     margin-bottom: 10px;
 }
 
+
 /* about us section */
 
 #about-us {
@@ -172,4 +173,24 @@ h1, h2 {
     float: left;
     padding-right: 50px;
     text-align: justify;
+}
+
+/* footer */
+footer {
+height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
