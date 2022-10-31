@@ -37,18 +37,18 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #3f3e68;
 }
 
 .active {
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #3f3e68;
 }
 
 /* hero image */
 
 .hero-image {
-    background-image: url("../images/hero-image-600px.png");
-    height: 600px;
+    background-image: url("../images/Shopping\ cart\ next\ to\ girl\ ordering\ food\ via\ mobile\ app.jpg");
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,9 +56,10 @@ h1, h2 {
   
   .hero-text {
     text-align: center;
+    color: #3f3e68;
     position: absolute;
-    top: 12%;
-    left: 50%;
+    top: 25%;
+    left: 15%;
     transform: translate(-50%, -50%);
     font-size: 55px;
     letter-spacing: 4px;
@@ -71,7 +72,6 @@ h1, h2 {
 /* mission */
 
 #mission {
-    height: 600px;
     margin-bottom: 30px;
 }
 
@@ -90,88 +90,42 @@ h1, h2 {
     text-align: center;
 }
 
-#reasons {
-    padding: 30px;
-    clear:left;
-    margin-left: 30px;
-}
-
-#answers li {
-    list-style-type: none;
-    display: inline-block;
-    width: 33%;
-}
-
-#save-money-pic {
-    width: 200px;
-    height: 200px;
-    padding: 30px;
-    margin: 0 auto;
-    background: url(../images/save-money.jpg) no-repeat center center;
-}
-
-#save-money-pic ~ h2 {
+.sales-points {
+    padding: 5vh 0;
     text-align: center;
-    font-size: 40px;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+
+
+  .sales-point i {
+    font-size: 220%;
+    margin: 1%;
+    padding: 5%;
+  }
+  
+  @media (min-width: 40rem) {
+    .sales-points {
+      flex-direction: row;
+    }
+  }
+
+  .sales-point {
+    flex-basis: 30%;
+  }
+
+
+/* call to action section */
+
+#cta {
+  padding: 5vh 0;
+  display: flex;
+  background-color: #eff3fc;
+  flex-direction: column;
 }
 
-#save-time-pic ~ h2 {
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-#co2-reduction-pic ~ h2 {
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-
-/* about us section */
-
-#about-us {
-    height: 600px;
-    background-color: #52e2c9;
-}
-
-#about-us-pic-border {
-    width: 45%;
-    height: 50%;
-    clear: both;
-    float: left;
-    margin: auto;
-    padding: 50px 50px;
-}
-
-#about-us-pic {
-    background: url('../images/about-us-600px.png') no-repeat center center;
-    height: 500px;
-    width: 500px;
-}
-
-#about-us-text {
-    width: 45%;
-    clear: right;
-    float: right;
-    padding-top: 75px;
-}
-
-#about-us-text > h1 {
-    font-size: 60px;
-    float: left;
-    margin: 0 auto;
-    padding-bottom: 10px;
-}
-
-#about-us-text > p {
-    font-size: 20px;
-    clear: both;
-    float: left;
-    padding-right: 50px;
-    text-align: justify;
-}
 
 /* footer */
 footer {
