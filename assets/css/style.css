@@ -119,13 +119,29 @@ h1, h2 {
 
 /* call to action section */
 
-#cta {
+.cta-container {
   padding: 5vh 0;
   display: flex;
-  background-color: #eff3fc;
-  flex-direction: column;
+  justify-content: center; 
 }
 
+img {
+    width: 30%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+.cta-text {
+    width: 25%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+.cta-text > h1 {
+    font-size: 100px;
+    color: #3f3e68;
+    padding-bottom: 5px;
+}
 
 /* footer */
 footer {
