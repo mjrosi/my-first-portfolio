@@ -164,7 +164,9 @@ height: 150px;
     color: #3a3a3a;
 }
 
-/* how it works */
+/* how it works page*/
+
+/* how it works headere*/
 
 #logo {
     float: left;
@@ -172,3 +174,31 @@ height: 150px;
     margin-left: 30px;
     color: #3f3e68;
 }
+
+/* how it works body */
+
+.htw-container-1 {
+    padding: 5vh 0;
+    display: flex;
+    justify-content: center;
+    clear: both;
+  }
+  
+  .htw-box-1 {
+      width: 500px;
+      height: 300px;
+      padding-left: 5vh;
+      padding-right: 5vh;
+  }
+  
+  .htw-text-1 {
+      width: 25%;
+      padding-left: 5vh;
+      padding-right: 5vh;
+  }
+  
+  .htw-text-1 > h1 {
+      font-size: 100px;
+      color: #3f3e68;
+      padding-bottom: 5px;
+  }
