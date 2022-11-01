@@ -143,6 +143,22 @@ img {
     padding-bottom: 5px;
 }
 
+.cta-button {
+    display: block; 
+    height: 10%; 
+    width: 50%; 
+    background: #3f3e68; 
+    color: #ffffff; 
+    text-align: center; 
+    font-weight: bold; 
+    border-radius: 20px; 
+    text-decoration: none; 
+    line-height: 200%; 
+    font-weight: bold; 
+    font-size: 150%; 
+    font-family: sans-serif;
+}
+
 
 /* footer */
 footer {
@@ -213,3 +229,34 @@ height: 150px;
       color: #3f3e68;
       padding-bottom: 10px;
   }
+.htw-banner {
+    background-color: #eff3fc;
+}
+.banner {
+    padding: 5vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clear: both;
+}
+
+.banner-pic {
+    padding-left: 5vh;
+    padding-right: 5vh;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-text {
+    padding-left: 5vh;
+    padding-right: 5vh;
+    align-self: center;
+}
+
+.banner-text > h1 {
+    font-size: 50px;
+    color: #3f3e68;
+    padding-bottom: 10px;
+}
