@@ -143,6 +143,7 @@ img {
     padding-bottom: 5px;
 }
 
+
 /* footer */
 footer {
 height: 150px;
@@ -161,4 +162,13 @@ height: 150px;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* how it works */
+
+#logo {
+    float: left;
+    font-size: 300%;
+    margin-left: 30px;
+    color: #3f3e68;
 }
