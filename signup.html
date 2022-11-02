@@ -17,10 +17,10 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="signup.html">Sign up</a>
+                    <a href="signup.html" class="active">Sign up</a>
                 </li>
                 <li>
-                    <a href="how-it-works.html" class="active">How it works</a>
+                    <a href="how-it-works.html">How it works</a>
                 </li>
                 <li>
                     <a href="index.html">Home</a>
@@ -29,48 +29,23 @@
             </ul>
         </nav>
     </header>
-
-    <section class="htw">
-        <h1>How it works</h1>
-        <div class="htw-container-1">
-            <img src="assets/images/10122.jpg" alt="people-choosing-products-grocery-store" class="htw-box-1">
-            <div class="htw-text-1">
-                <h1>1. Search for your items</h1>
-                <p>Maecenas id volutpat tellus. Praesent at rhoncus ante, non sollicitudin nisl.Maecenas id volutpat tellus. Praesent at rhoncus ante, non sollicitudin nisl.</p>
-                <br>
-                <a href="#" class="cta-button">Sign up!</a>
-            </div>
-        </div>
-
-        <div class="htw-container-1">
-            <div class="htw-text-1">
-                <h1>2. Add your items in shopping bag</h1>
-                <p>Maecenas id volutpat tellus. Praesent at rhoncus ante, non sollicitudin nisl.Maecenas id volutpat tellus. Praesent at rhoncus ante, non sollicitudin nisl.</p>
-                <br>
-                <a href="#" class="cta-button">Sign up!</a>
-            </div>
-            <img src="assets/images/71z_2202_w012_n001_39b_p12_39.jpg" alt="flat-people-order-food-online-grocery-shopping" class="htw-box-1">
-        </div>
-
-        <div class="htw-container-1">
-            <img src="assets/images/Tiny family at grocery bag with healthy food.jpg" alt="delivery of grocery bag" class="htw-box-1">
-            <div class="htw-text-1">
-                <h1>3. Get your items delivered</h1>
-                <p>Maecenas id volutpat tellus. Praesent at rhoncus ante, non sollicitudin nisl.Maecenas id volutpat tellus. Praesent at rhoncus ante, non sollicitudin nisl.</p>
-                <br>
-                <a href="#" class="cta-button">Sign up!</a>       
-            </div>
-        </div>
-        <div class="htw-banner">
-            <div class="banner">
-                <div class="banner-text">
-                    <h1>4. Enjoy Time and Money You Saved!</h1>
-                </div>     
-            </div>
-            <img src="assets/images/happy-wife-prepare-food.png" alt="happy woman deliver prepare food to a man" class="banner-pic">
-        </div>
-
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Let's get you signed up!</h2>
+            
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required class="text-input">
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required class="text-input">
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required class="text-input">
+            
+            <input class="join-button" type="submit" value="Sign up!">
+        </form>
     </section>
+
         <footer>
             <div class="footer-content">
                 <h3>SHOOD</h3>
