@@ -44,6 +44,7 @@ h1, h2 {
     border-bottom: 2px solid #3f3e68;
 }
 
+
 /* hero image */
 
 .hero-image {
@@ -57,7 +58,7 @@ h1, h2 {
   .hero-text {
     text-align: center;
     color: #3f3e68;
-    position: absolute;
+    position:absolute;
     top: 25%;
     left: 15%;
     transform: translate(-50%, -50%);
@@ -298,6 +299,8 @@ footer{
       padding-bottom: 10px;
   }
 
+
+
 .htw-banner {
     background-color: #eff3fc;
     display: flex;
@@ -349,6 +352,8 @@ footer{
     color: #3f3e68;;
     border: solid #3f3e68 2px;
 }
+
+
 
 /* Form */
 
@@ -403,4 +408,51 @@ footer{
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+/* Media queries */
+@media screen and (max-width: 1200px) {
+    .hero-text {
+        float: left;
+        font-size: 300%;
+        margin-left: 30px;
+        color: #3f3e68;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .hero-text {
+        float: left;
+        position: fixed;
+        font-size: 300%;
+        margin-left: 30px;
+        color: #3f3e68;
+        top: 7%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .htw-container-1 {
+        align-items: center;
+        flex-direction: column;
+}
+    #htw-text-middle {
+        display: flex;
+        flex-direction: column-reverse;
+}
+
+    .htw-text-1 {
+    width: 50%;
+}
+  }
+
+@media screen and (max-width: 500px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 }
