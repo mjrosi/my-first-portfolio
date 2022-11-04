@@ -1,5 +1,5 @@
 # SHOOD
-You can see the live link [here](https://mjrosi.github.io/my-first-portfolio/how-it-works.html)
+You can see the live link [here.](https://mjrosi.github.io/my-first-portfolio/)
 
 SHOOD provides service for groceries shopping. With SHOOD you can compare the price of groceries in different store in your region and order it online. The service include delivery.
 
