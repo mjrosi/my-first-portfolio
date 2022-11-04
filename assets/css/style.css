@@ -350,7 +350,7 @@ footer{
 .form-section {
     clear: left;
     background: url('../images/woman-ordering-food-online.jpg') no-repeat;
-    background-size: 1200px;
+    background-size: contain;
     background-position: right;
     height: 900px;
 }
@@ -407,6 +407,9 @@ footer{
     .hero-image {
         height: 600px;
     }
+    .form-section {
+        background-position: bottom;
+    }
 }
 
 @media screen and (max-width: 1106px) {
@@ -415,9 +418,6 @@ footer{
 }
 .cta-text {
     width: 50%;
-}
-.form-section {
-    background-size: contain;
 }
 
 .cta-pic {
@@ -511,6 +511,9 @@ footer{
         width: 390px;
         height: 339px;
         padding: 0;
+    }
+    .form-section {
+        background-position: bottom;
     }
 }
 
