@@ -1,6 +1,6 @@
 # SHOOD
 
-SHOOD provides service for groceries shopping. The service inludes an app. With SHOOD you can compare the price of groceries in different store in your region and order it online. The service include delivery.
+SHOOD provides service for groceries shopping. With SHOOD you can compare the price of groceries in different store in your region and order it online. The service include delivery.
 
 PICTURES
 
