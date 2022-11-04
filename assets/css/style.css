@@ -142,7 +142,7 @@ img {
     padding-right: 5vh;
 }
 
-.cta-text > h1 {
+.cta-text > h2 {
     font-size: 90px;
     color: #3f3e68;
     padding-bottom: 5px;
@@ -504,7 +504,7 @@ footer{
         padding: 0;
     }
 
-    .cta-text > h1 {
+    .cta-text > h2 {
         text-align: center;
     }
 
