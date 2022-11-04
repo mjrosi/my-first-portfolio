@@ -515,6 +515,10 @@ footer{
     .form-section {
         background-position: bottom;
     }
+
+    .signup-form {
+        margin: 81px 10% 10px 0;
+}
 }
 
 
