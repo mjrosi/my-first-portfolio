@@ -292,7 +292,7 @@ footer{
       padding-bottom: 10px;
   }
 
-.htw-banner {
+    .htw-banner {
     background-color: #eff3fc;
     display: flex;
     flex-direction: column;
@@ -526,6 +526,9 @@ footer{
 .banner-pic {
     margin-left: 0;
     margin-right: 0;
+}
+.htw-text-1 {
+    padding-left: 0;
 }
 }
 
