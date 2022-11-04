@@ -8,6 +8,7 @@
 
 body {
     font-family: Montserrat, sans-serif;
+    overflow-x: hidden;
 }
 
 /* headings and logo */
@@ -468,11 +469,15 @@ footer{
         width: 61%;
     }
 
+    .cta-pic {
+        width: 390px;
+        height: 339px;
+        padding: 0;
 }
-.cta-pic {
-    width: 390px;
-    height: 339px;
-    padding: 0;
+    .htw-box-1 {
+        width: 374px;
+        height: 301px;
+}
 }
 
 @media screen and (max-width: 550px) {
@@ -495,17 +500,13 @@ footer{
         background-size: contain;
         height: 400px;
 }
-.htw > h1 {
-    font-size: 85px;
-    padding: 5vh;
+    .htw > h1 {
+        font-size: 85px;
+        padding: 5vh;
 }
 }
 
 @media screen and (max-width: 500px) {
-    .htw-box-1 {
-        width: 450px;
-        height: 300px;
-    }
     .cta-pic {
         width: 390px;
         height: 339px;
@@ -516,7 +517,7 @@ footer{
 
 @media screen and (max-width: 391px) {
     .cta-pic {
-        width: 320px;
+        width: 319px;
         height: 278px;
         padding: 0;
     }
