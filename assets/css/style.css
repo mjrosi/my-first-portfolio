@@ -54,7 +54,7 @@ h1, h2 {
 }
 
 .hero-image {
-    background-image: url("../images/Shopping\ cart\ next\ to\ girl\ ordering\ food\ via\ mobile\ app.jpg");
+    background-image: url("../images/hero-image.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -567,15 +567,5 @@ footer{
     .banner-pic {
      width: 374px;
      height: 301px;
-}
-}
-
-@media screen and (max-width: 320px) {
-#menu {
-    clear: both;
-    margin-left: 16px;
-}
-#menu li {
-    margin-left: 10px;
 }
 }
