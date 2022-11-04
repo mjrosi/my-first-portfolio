@@ -272,8 +272,8 @@ footer{
   }
   
   .htw-box-1 {
-      width: 750px;
-      height: 500px;
+      width: 600px;
+      height: 400px;
       padding-left: 5vh;
       padding-right: 5vh;
   }
@@ -462,6 +462,11 @@ footer{
         height: 600px;
     }
 
+    .cta-text {
+        text-align: center;
+        width: 61%;
+    }
+
 }
 
 @media screen and (max-width: 550px) {
@@ -491,6 +496,10 @@ footer{
         width: 320px;
         height: 278px;
         padding: 0;
+    }
+
+    .cta-text > h1 {
+        text-align: center;
     }
 
     #menu {
