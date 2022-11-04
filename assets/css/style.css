@@ -532,3 +532,13 @@ footer{
      height: 301px;
 }
 }
+
+@media screen and (max-width: 320px) {
+#menu {
+    clear: both;
+    margin-left: 16px;
+}
+#menu li {
+    margin-left: 10px;
+}
+}
