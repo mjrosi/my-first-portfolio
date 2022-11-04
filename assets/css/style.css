@@ -150,8 +150,7 @@ img {
 
 #cta-button-homepage {
     display: block; 
-    height: 10%; 
-    width: 50%; 
+    height: 10%;
     background: #3f3e68; 
     color: #ffffff; 
     text-align: center; 
@@ -259,12 +258,11 @@ footer{
 
 .htw > h1 {
     clear: both;
-    display: flex;
     font-size: 100px;
     padding: 7vh;
     color: #3f3e68;
     background-color: #eff3fc;
-    justify-content: center;
+    text-align: center;
 }
 
 .htw-container-1 {
@@ -274,8 +272,8 @@ footer{
   }
   
   .htw-box-1 {
-      width: 500px;
-      height: 300px;
+      width: 750px;
+      height: 500px;
       padding-left: 5vh;
       padding-right: 5vh;
   }
@@ -292,8 +290,6 @@ footer{
       color: #3f3e68;
       padding-bottom: 10px;
   }
-
-
 
 .htw-banner {
     background-color: #eff3fc;
@@ -330,8 +326,7 @@ footer{
 
 .cta-button {
     display: block; 
-    height: 10%; 
-    width: 50%; 
+    height: 10%;
     background: #3f3e68; 
     color: #ffffff; 
     text-align: center; 
@@ -349,7 +344,7 @@ footer{
 
 
 
-/* Form */
+/* signup Form */
 
 .form-section {
     clear: left;
@@ -422,6 +417,35 @@ footer{
 .form-section {
     background-size: contain;
 }
+
+.cta-pic {
+    width: 600px;
+    height: 522px;
+}
+.htw-container-1 {
+    align-items: center;
+    flex-direction: column;
+}
+
+.htw-box-1 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.htw-text-1 {
+    width: 85%;
+    text-align: center;
+}
+
+.banner-pic {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#htw-text-middle {
+    display: flex;
+    flex-direction: column-reverse;
+}
 }
 
 @media screen and (max-width: 950px) {
@@ -429,33 +453,13 @@ footer{
     #menu, #logo {
         line-height: 120px;
     }
+    
 }
 
 @media screen and (max-width: 833px) {
     .hero-image {
         background-size: contain;
         height: 600px;
-    }
-    .htw-container-1 {
-        align-items: center;
-        flex-direction: column;
-    }
-    .htw-box-1 {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .banner-pic {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    #htw-text-middle {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .htw-text-1 {
-    width: 50%;
     }
 
 }
@@ -482,7 +486,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 391px) {
     .cta-pic {
         width: 320px;
         height: 278px;
@@ -495,5 +499,20 @@ footer{
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+}
+    .htw > h1 {
+        font-size: 67px;
+        padding: 5vh;
+}
+    .htw-box-1 {
+        width: 388px;
+}
+    .htw-text-1 {
+        width: 76%;
+        text-align: center;
+}
+.banner-pic {
+    width: 385px;
+    height: 310;
 }
 }
