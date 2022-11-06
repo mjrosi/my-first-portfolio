@@ -569,3 +569,19 @@ footer{
      height: 301px;
 }
 }
+
+@media screen and (max-width: 374px) {
+    #menu {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 94%;
+    }
+    .htw-box-1 {
+        width: 319px;
+        height: 213px;
+}
+.banner-pic {
+    width: 319px;
+    height: 257px;
+}
+}
